@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
     <link href="fontawesome/css/all.min.css" rel="stylesheet">
+
     <link href="style.css" rel="stylesheet">
-
-
+    <link href="queries.css" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
+    <nav id="desktop-nav">
         <img src="resources/Img/Tnw-logo.svg" alt="Tnw-logo">
 
         <ul>
@@ -18,11 +22,15 @@
             <li><a href="#">PROGRAMS</a></li>
             <li><a href="#">SPACES</a></li>
             <li><a href="#">MORE <i class="fas fa-chevron-down"></i></a></li>
-
         </ul>
 
         <i class="fas fa-envelope"></i>
-        
+    </nav>
+
+    <nav id="mobile-nav">
+        <i class="fas fa-bars"></i>
+        <img src="resources/Img/Tnw-logo.svg" alt="Tnw-logo">
+
     </nav>
 
     <header>
@@ -32,14 +40,16 @@
 
     </header>
 
-    <section id="flex-pictures">
+    <section id="flex-pictures" class="desktop">
+
         <div class="left-flex-pictures">
+
             <div>
                 <img src="Resources/Img/Apple imge.webp" alt="Apple">
                 <div>
                     <p>APPLE</p>
                     <h2>Apple might’ve leaked the ‘M1X MacBook Pro’ on YouTube, and no one noticed</h2>
-                 </div>
+                </div>
             </div>
 
             <div>
@@ -53,7 +63,9 @@
         </div>
 
         <div>
+
             <div class="right-flex-pictures">
+
                 <div>
                     <img src="Resources/Img/Red eyes 1.jpg" alt="Man">
                     <div>
@@ -84,8 +96,111 @@
 
     </section>
 
+    <section id="flex-pictures" class="mobile">
+
+        <div class="cover-picture">
+            <img src="Resources/Img/Apple imge.webp" alt="Apple">
+            <div>
+                <p>APPLE</p>
+                <h2>Apple might’ve leaked the ‘M1X MacBook Pro’ on YouTube, and no one noticed</h2>
+            </div>
+        </div>
+
+        <div class="grid-mobile">
+            <div>
+                <img src="Resources/Img/Under apple 2.png" alt="Purple">
+                <div>
+                    <h2>Europe’s leading tech festival is leveling up TNW Conference goes hybrid</h2>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+
+
+            <div>
+                <img src="Resources/Img/Red eyes 1.jpg" alt="Man">
+                <div>
+                    <p>PLUGGED</p>
+                    <h2>Facebook, why stop at a smartwatch? We need more ZuckTech!</h2>
+                </div>
+            </div>
+
+            <div>
+                <img src="Resources/Img/Cars 1.jpg" alt="Cars">
+                <div>
+                    <p>NEUTRAL</p>
+                    <h2>Why the dream of truly driverless cars is slowly dying</h2>
+                </div>
+            </div>
+
+
+            <div>
+                <img src="Resources/Img/gif.gif" alt="Gif">
+                <div>
+                    <p>VIDEO</p>
+                    <h2>Apple AirTags review: Beautiful design, but… why?</h2>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="flex-pictures" class="mini-mobile">
+        <div class="grid-mobile">
+            <div>
+                <img src="Resources/Img/Apple imge.webp" alt="Apple">
+                <div>
+                    <p>APPLE</p>
+                    <h2>Apple might’ve leaked the ‘M1X MacBook Pro’ on YouTube, and no one noticed</h2>
+                </div>
+            </div>
+
+
+
+            <div>
+                <img src="Resources/Img/Red eyes 1.jpg" alt="Man">
+                <div>
+                    <p>PLUGGED</p>
+                    <h2>Facebook, why stop at a smartwatch? We need more ZuckTech!</h2>
+                </div>
+            </div>
+
+            <div>
+                <img src="Resources/Img/Cars 1.jpg" alt="Cars">
+                <div>
+                    <p>NEUTRAL</p>
+                    <h2>Why the dream of truly driverless cars is slowly dying</h2>
+                </div>
+            </div>
+
+
+            <div>
+                <img src="Resources/Img/gif.gif" alt="Gif">
+                <div>
+                    <p>VIDEO</p>
+                    <h2>Apple AirTags review: Beautiful design, but… why?</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="cover-picture">
+            <img src="Resources/Img/Under apple 2.png" alt="Purple">
+            <div>
+                <h2>Europe’s leading tech festival is leveling up TNW Conference goes hybrid</h2>
+                <a href="#">LEARN MORE</a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
     <section id="popular-articles">
+
         <h2>POPULAR ARTICLES TODAY</h2>
+
         <div>
             <div>
                 <p>1</p>
@@ -117,49 +232,74 @@
     </section>
 
     <section id="latest-stories">
+
         <h2>Latest stories</h2>
+
         <div>
             <div>
                 <img src="resources/Img/latest 1.jpeg" alt="latest 1">
-                <h3><a href="#">Cryptocurrency isn’t as impenetrable as you think. This training even explains how to make your own</a></Cryptocurrency></h3>
-                <p>8 hours ago</p>
+                <div>
+                    <h3><a href="#">Cryptocurrency isn’t as impenetrable as you think. This training even explains how
+                            to
+                            make your own</a></Cryptocurrency>
+                    </h3>
+                    <p>8 hours ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 2.jpeg" alt="latest 2">
-                <h3><a href="#">New mysterious ‘fast radio bursts’ reveal secrets of the universe</a></h3>
-                <p>8 hours ago</p>
+                <div>
+                    <h3><a href="#">New mysterious ‘fast radio bursts’ reveal secrets of the universe</a></h3>
+                    <p>8 hours ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 3.jpeg" alt="latest 3">
-                <h3><a href="#">AI can now convincingly mimic cybersecurity experts and medical researchers</a>
-                </h3>
-                <p>11 hours ago</p>
+                <div>
+                    <h3><a href="#">AI can now convincingly mimic cybersecurity experts and medical researchers</a>
+                    </h3>
+                    <p>11 hours ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 4.jpeg" alt="latest 4">
-                <h3><a href="#">Self-driving startup Waabi just managed to net $83.5M — how?</a></h3>
-                <p>1 day ago</p>
+                <div>
+                    <h3><a href="#">Self-driving startup Waabi just managed to net $83.5M — how?</a></h3>
+                    <p>1 day ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 5.jpeg" alt="latest 5">
-                <h3><a href="#">Make Amazon dropshipping and private labels your ultimate business launch pad with this training</a></h3>
-                <p>1 day ago</p>
+                <div>
+                    <h3><a href="#">Make Amazon dropshipping and private labels your ultimate business launch pad with
+                            this
+                            training</a></h3>
+                    <p>1 day ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 6.jpeg" alt="latest 6">
-                <h3><a href="#">DeepMind researchers say reinforcement learning is the key to cracking general AI</a>
-                </h3>
-                <p>1 day ago</p>
+                <div>
+                    <h3><a href="#">DeepMind researchers say reinforcement learning is the key to cracking general
+                            AI</a>
+                    </h3>
+                    <p>1 day ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 7.jpeg" alt="latest 7">
-                <h3><a href="#">A quantum physics lullaby to ward off your killer robot nightmares</a></h3>
-                <p>2 days ago</p>
+                <div>
+                    <h3><a href="#">A quantum physics lullaby to ward off your killer robot nightmares</a></h3>
+                    <p>2 days ago</p>
+                </div>
             </div>
             <div>
                 <img src="resources/Img/latest 1.jpeg" alt="latest 1">
-                <h3><a href="#">OpenAI says it can make GPT-3 less toxic without enforcing ‘universal values'</a></h3>
-                <p>2 days ago</p>
+                <div>
+                    <h3><a href="#">OpenAI says it can make GPT-3 less toxic without enforcing ‘universal values'</a>
+                    </h3>
+                    <p>2 days ago</p>
+                </div>
             </div>
 
         </div>
@@ -202,18 +342,17 @@
             <div class="explore-5">
                 <img src="Resources/Img/explore 5 logo.png" alt="logo 5">
                 <h3>
-                    Inside money, markets, and Big Tech                          
+                    Inside money, markets, and Big Tech
                 </h3>
             </div>
-
         </div>
-
     </section>
 
     <section id="parallax">
 
         <h2>Get the snarkiest newsletter in tech</h2>
-        <p>Subscribe to our twice-weekly <a href="#">Big Spam</a> or check out our <a href="#">other newsletters</a>.</p>
+        <p>Subscribe to our twice-weekly <a href="#">Big Spam</a> or check out our <a href="#">other newsletters</a>.
+        </p>
         <form id="input-container">
             <input type="email" placeholder="Email">
             <i class="fas fa-envelope"></i>
@@ -236,8 +375,10 @@
     <section id="video-clip">
 
         <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Gpmto2eoro" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Gpmto2eoro"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             <h2>Apple AirTags review: The Find My revolution</h2>
             <p>Jun 11, 2021</p>
         </div>
@@ -289,7 +430,9 @@
         <div>
             <h3>REACH YOUR GOALS</h3>
             <h2>Work with us</h2>
-            <p>TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively, 
+            <p>TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events,
+                bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more
+                effectively,
                 innovate your business, and position your brand in front of a digital-savvy audience?</p>
             <a href="#">GET IN TOUCH</a>
         </div>
@@ -316,16 +459,16 @@
     </section>
 
 
-     <ul id="partners">
-            <li><a href="#"><img src="Resources/Img/google.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/etoro.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/ibm.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/microsoft.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/paypal.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/vodafone.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/accenture.png"></a></li>
-            <li><a href="#"><img src="Resources/Img/mckinsey-company.png"></a></li>
-            
+    <ul id="partners">
+        <li><a href="#"><img src="Resources/Img/google.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/etoro.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/ibm.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/microsoft.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/paypal.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/vodafone.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/accenture.png"></a></li>
+        <li><a href="#"><img src="Resources/Img/mckinsey-company.png"></a></li>
+
     </ul>
 
     <footer>
@@ -341,33 +484,32 @@
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
+        <div>
+            <div id="first-more-tnw" class="more-tnw">
+                <h2>MORE TNW</h2>
+                <ul>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Spaces</a></li>
+                    <li><a href="#">Newsletters</a></li>
+                </ul>
+            </div>
 
-        <div id="first-more-tnw" class="more-tnw">
-            <h2>MORE TNW</h2>
-            <ul>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Spaces</a></li>
-                <li><a href="#">Newsletters</a></li>
-            </ul>
+            <div class="more-tnw">
+                <h2>ABOUT TNW</h2>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Partners with us</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cookie Statement</a></li>
+                    <li><a href="#">Privacy Statement</a></li>
+                    <li><a href="#">Editorial Policy</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="more-tnw">
-            <h2>ABOUT TNW</h2>
-            <ul>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Partners with us</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Cookie Statement</a></li>
-                <li><a href="#">Privacy Statement</a></li>
-                <li><a href="#">Editorial Policy</a></li>
-            </ul>
-        </div>
-
-
     </footer>
 
     <section id="footer">
