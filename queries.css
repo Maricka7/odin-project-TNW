@@ -128,11 +128,8 @@
     }
 }
 
-@media screen and (max-width: 778px) {
-    #flex-pictures.desktop {
-        display: none;
-    }
-    #flex-picures.mini-mobile {
+@media screen and (min-width: 778px) {
+    #flex-pictures.mobile {
         display: none;
     }
 }
