@@ -1,0 +1,29 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "partials/navbar";
+
+@import "partials/header";
+
+@import "partials/grid-section";
+
+@import "partials/popular-articles";
+
+@import "partials/latest-stories";
+
+@import "partials/explore";
+
+@import "partials/parallax";
+
+@import "partials/video";
+
+@import "partials/work-with-us";
+
+@import "partials/footer";
+
+@import "partials/queries";

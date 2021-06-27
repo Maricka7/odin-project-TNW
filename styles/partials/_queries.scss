@@ -1,0 +1,400 @@
+@media screen and (min-width: 1024px) {
+    #mobile-nav {
+        display: none;
+    }
+
+    footer {
+        padding-right: 100px;
+        & > div:first-of-type {
+            padding-right: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            padding-right: 0;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        img {
+            width: 500px;
+        }
+   }
+
+    .last-picture img {
+        height: 284px;
+    }
+
+    .left-flex-pictures {
+      
+        img {
+          height: 300px;
+        }
+		div:last-of-type img {
+			height: 200px;
+		}
+
+    }
+    
+    .right-flex-pictures img {
+        height: 220px;
+    }
+
+	#popular-articles {
+
+		& > div {
+			gap: 1%;
+			div p {
+				padding-right: 10px;
+			}
+		}
+
+	}
+
+	#partners {
+		padding: 0 120px 40px 120px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+		li {
+			width: 25%;
+		}
+
+	}
+
+	#first-more-tnw {
+        padding-right: 30px;
+    }
+
+	footer {
+		padding-right: 100px;
+		& > div:first-of-type {
+			padding-right: 200px;
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+
+	#work-with-us {
+		padding: 50px 20px;
+		& > div:first-of-type p {
+			padding-right: 50px;
+			font-size: 18px;
+		}
+	}
+ 
+    #tech img {
+        height: 90px;
+        padding-right: 10px;
+    }
+
+	iframe {
+        height: 400px;
+    }
+
+	#video-clip {
+        padding: 0 40px 80px 40px;
+		.aside {
+			height: 500px;
+		}
+    }
+
+	#explore>div {
+        overflow: scroll;
+        gap: 1.5%;
+		& > div {
+			width: 33%;
+        	flex-shrink: 0;
+        	height: 300px;
+		}
+    }
+    
+    footer {
+        padding-right: 60px;
+    }   
+}
+
+@media screen and (max-width: 870px) {
+    .last-picture img {
+        height: 184px;
+    }
+    .left-flex-pictures {
+		img {
+        	height: 200px;
+    	}
+
+		div:first-of-type div h2 {
+			font-size: 20px;
+		}
+
+		div:last-of-type img {
+			height: 180px;
+		}
+	}
+    
+    .last-picture h2 {
+        font-size: 20px;
+    }
+
+    .right-flex-pictures img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 778px) {
+    #flex-pictures.mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    #flex-pictures.desktop {
+        display: none;
+    }
+    #popular-articles>div {
+        flex-direction: column;
+    }
+    #latest-stories>div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    iframe {
+        height: 300px;
+    }
+    #video-clip {
+
+		 .aside {
+        	height: 400px;
+		} 
+		.video {
+			margin: 0 20px;
+		}
+    }
+    
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+		& > div:first-of-type {
+			padding-right: 100px;
+		}
+    }
+}
+
+@media screen and (max-width: 605px) {
+
+    #work-with-us>div:first-of-type {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+		a {
+			width: 130px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+		h3 {
+			font-size: 15px;
+		}
+		p {
+			padding: 0 20px 30px 20px;
+		}
+    }
+    #latest-stories {
+        margin: 20px;
+		& > div {
+			grid-template-columns: repeat(1, 1fr);
+
+			div {
+				display: flex;
+        		gap: 10px;
+			}
+		}
+    }
+   
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+		.more-tnw li a {
+			padding-bottom: 2px;
+		}
+		& > div:first-of-type {
+
+			img {
+				width: 200px;
+			}
+			h2 {
+				padding-bottom: 50px;
+			}
+			ul li a {
+				font-size: 30px;
+			}
+		}
+    }
+}
+
+@media screen and (min-width: 551px) {
+    #flex-pictures.mini-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #flex-pictures.mobile {
+        display: none;
+    }
+    header {
+		justify-content: center;
+		img {
+        	width: 200px;
+		}
+		h2 {
+			font-size: 25px;
+		}
+
+    }
+
+    #explore {
+        padding: 80px 40px;
+		& > h2 {
+			font-size: 30px;
+        	text-align: center;
+		}
+		& > div > div {
+			height: 200px;
+		}
+    }
+
+	#work-with-us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+		& > div:first-of-type {
+			width: 100%;
+        	justify-content: center;
+        	align-items: center;
+        	padding-bottom: 20px;
+			text-align: center;
+		}
+		a {
+			width: 130px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+		h3 {
+			font-size: 15px;
+		}
+		p {
+			padding: 0 20px 30px 20px;
+		}
+    }
+
+    #video-clip {
+        flex-direction: column;
+
+		.video {
+			margin: 0;
+		}
+		.aside {
+			flex-direction: row;
+			width: 100%;
+			overflow-y: scroll;
+			height: 200px;
+
+			& > div {
+				width: 40%;
+        		flex-shrink: 0;
+
+				h3 {
+					font-size: 15px;
+				}
+			}
+		}
+    }
+    
+    #popular-articles>div {
+        gap: 10px;
+		a {
+			font-size: 18px;
+		}
+    }
+    #latest-stories {
+        margin: 20px;
+		& > h2 {
+			font-size: 30px;
+        	text-align: center;
+		}
+		& > h3 a {
+			width: 300px;
+		}
+		& > div {
+			grid-template-columns: repeat(1, 1fr);
+			div {
+				display: flex;
+        		gap: 10px;
+				img {
+					width: 120px;
+					height: 120px;
+					border-radius: 100%;
+					padding: 0;
+				}
+				div {
+					display: flex;
+					flex-direction: column;
+					h3 a {
+						font-size: 17px;
+        				padding-bottom: 3px;
+					}
+				}
+			}
+		}
+    }
+
+	#parallax>h2 {
+        font-size: 30px;
+    }
+        
+    #partners {
+        padding: 0 20px 40px 20px;
+		li {
+			width: 40%;
+		}
+    }
+   
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+		.more-tnw li a {
+			padding-bottom: 2px;
+		}
+		& > div:first-of-type {
+			ul {
+				gap: 5px;
+        		list-style: none;
+				li a {
+					font-size: 30px;
+				}
+			}
+			img {
+				width: 200px;
+			}
+			h2 {
+				padding-bottom: 50px;
+			}
+		}
+    }
+}

@@ -1,0 +1,48 @@
+#explore {
+    padding: 80px 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 235, 235); 
+    & > h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    & > div {
+        display: flex;
+        gap: 20px;
+        & > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            width: 20%;
+            text-align: center;
+            height: 220px;
+            color: #fff;
+            img {
+                max-width: 120px;
+                margin: 0 auto; 
+            }
+
+        }
+    }
+}
+.explore-1 {
+    background-image: url('../Resources/Img/explore\ 1.png');
+}
+
+.explore-2 {
+    background-image: url('../Resources/Img/explore\ 2.jpeg');
+}
+
+.explore-3 {
+    background-image: url('../Resources/Img/explore\ 3.jpeg');
+}
+
+.explore-4 {
+    background-image: url('../Resources/Img/explore\ 4.jpeg');
+}
+
+.explore-5 {
+    background-image: url('../Resources/Img/explore\ 5.png');
+}

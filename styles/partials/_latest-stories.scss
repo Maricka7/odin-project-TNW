@@ -1,0 +1,54 @@
+#latest-stories {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 70px;
+
+    & > h2 {
+        font-size: 40px;
+    }
+    & > h3 {
+        text-align: center;
+        i {
+            color: rgb(73, 73, 73); 
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: rgb(61, 199, 199);
+            border-radius: 20px; 
+        }
+        a:hover,
+        a:active {
+            background-color: aqua;
+        }
+    }
+    & > div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin-bottom: 20px;
+        
+        div {
+            p {
+                color: #555; 
+            }
+            h3 a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            padding-bottom: 20px;
+            }
+            h3 a:hover,
+            h3 a:active {
+                text-decoration: underline;
+                text-decoration-color: rgb(220, 157, 223); 
+            }
+        }
+    }  
+}
