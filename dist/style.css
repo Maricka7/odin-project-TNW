@@ -407,6 +407,9 @@ header h2 {
   gap: 30px;
   margin-bottom: 20px;
 }
+#latest-stories > div div img {
+  width: 100%;
+}
 #latest-stories > div div p {
   color: #555;
 }
@@ -525,8 +528,8 @@ header h2 {
 #input-container {
   position: relative;
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 0 auto 30px auto;
 }
 #input-container input {
   width: 100%;
@@ -767,6 +770,14 @@ footer > div:last-of-type {
     display: none;
   }
 
+  #partners {
+    padding: 0 100px 40px 100px;
+    gap: 20px;
+  }
+  #partners li {
+    width: 100%;
+  }
+
   footer {
     padding-right: 100px;
   }
@@ -817,7 +828,7 @@ footer > div:last-of-type {
   }
 
   #partners {
-    padding: 0 120px 40px 120px;
+    padding: 0 100px 40px 100px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -868,7 +879,7 @@ footer > div:last-of-type {
     gap: 1.5%;
   }
   #explore > div > div {
-    width: 33%;
+    width: 50%;
     flex-shrink: 0;
     height: 300px;
   }
@@ -1132,6 +1143,22 @@ footer > div:last-of-type {
   }
   footer > div:first-of-type h2 {
     padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #parallax #input-container {
+    width: 70%;
+  }
+
+  #tech h2 {
+    font-size: 25px;
+  }
+  #tech img {
+    height: 60px;
+  }
+
+  #partners li a img {
+    width: 95%;
   }
 }
 
